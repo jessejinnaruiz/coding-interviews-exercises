@@ -18,7 +18,19 @@ import sys
 #
 
 def evenSubarray(numbers, k):
-    # Write your code here
+
+    result = 0
+    
+    # Find sum of all subarrays and
+    # increment result if sum is even
+    for i in range(0, k, 1):
+        sum = 0
+        for j in range(i, k, 1):
+            sum = sum + numbers[j]
+            if (sum % 2 == 0):
+                    result = result + 1
+    
+    return (result)
     
 
 if __name__ == '__main__':
