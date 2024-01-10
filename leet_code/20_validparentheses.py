@@ -5,7 +5,6 @@ def isValid(s: str) -> bool:
     print(list_str.index(")"))
     print(list_str.index("("))
 
-    
     #second test for the correct ordering of the brackets.
     s1 = ")"
     s2 = "}"
