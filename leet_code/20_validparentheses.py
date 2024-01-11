@@ -37,7 +37,5 @@ def isValid(s: str) -> bool:
 
 test1 = "()[]{}"
 test2 = "([)]"
-
-
 print(isValid(test1))
 print(isValid(test2))
