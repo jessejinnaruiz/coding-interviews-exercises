@@ -1,1 +1,1 @@
-Some coding interview exercises and take home test.
+Some coding interview exercises from Leetcode and Hackerrank and take home test.
