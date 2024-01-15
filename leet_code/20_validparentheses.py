@@ -1,9 +1,9 @@
 # class Solution:
 def isValid(s: str) -> bool:
     list_str = list(s)
-    print(list_str)
-    print(list_str.index(")"))
-    print(list_str.index("("))
+    # print(list_str)
+    # print(list_str.index(")"))
+    # print(list_str.index("("))
 
     #second test for the correct ordering of the brackets.
     s1 = ")"
