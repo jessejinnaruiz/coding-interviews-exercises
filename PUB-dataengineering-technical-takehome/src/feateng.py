@@ -79,4 +79,4 @@ def feateng(df):
 
 # if __name__ == "__main__":
 #   feateng(df)
-#   print("Starting feature engineering of cdn data.")
+#   print("Starting feature engineering of data.")
