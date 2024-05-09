@@ -12,4 +12,4 @@ def data_pull_csv(file):
 
 # if __name__ == "__main__":
 #   data_pull_csv(file)
-#   print("Starting data pull from csv of cdn data.")
+#   print("Starting data pull from csv of data.")
