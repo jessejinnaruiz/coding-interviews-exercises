@@ -9,7 +9,7 @@ from feateng import *
 from offload import *
 
 
-file = '../data/cdn-log.csv'
+file = '../data/data-log.csv'
 
 def main():
   # data pull
@@ -32,6 +32,6 @@ def main():
   
 
 if __name__ == "__main__":
-    print("Starting processing of cdn data.")
+    print("Starting processing of data.")
     main()
     print("Completed")
