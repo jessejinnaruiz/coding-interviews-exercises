@@ -51,8 +51,9 @@ File structure as follows:
 
 
 README:
+    Build your solution in the SRC folder. Provide us with source code that we can run on our end to reproduce your results and/or tests/builds. The choice of tools and packaging for building this project are up to you but please don’t use a remotely hosted source-control tool. 
 
-    This test is designed to help us asses your ability to problem solve and program around a relevant data transformation use-case. The provided data sample is anonymized for privacy reasons and it reflects information from our content distribution network, (i.e. how we serve streams).
+    This test is designed to help us asses your ability to problem solve and prqogram around a relevant data transformation use-case. The provided data sample is anonymized for privacy reasons and it reflects information from our content distribution network, (i.e. how we serve streams).
 
     Assessment has the following folder structure:
     ```
@@ -68,7 +69,7 @@ README:
 
 SOURCE DATA:
 
-    the 'data' folder houses data-log.csv, the source material for our test. This dataset is a second-by-second log of http requests from clients, including over-the-top streaming devices like RokuTV, that retrieve packets of data which become video streams on TVs and in many cases, mobile devices. The information is logged at the device and client IP (mobile or household network) level and can be summarized to show duration streamed across different content assets which are episodes of series or films.
+    The 'data' folder houses data-log.csv, the source material for our test. This dataset is a second-by-second log of http requests from clients, including over-the-top streaming devices like RokuTV, that retrieve packets of data which become video streams on TVs and in many cases, mobile devices. The information is logged at the device and client IP (mobile or household network) level and can be summarized to show duration streamed across different content assets which are episodes of series or films.
 
     DATA DICTIONARY:
 
