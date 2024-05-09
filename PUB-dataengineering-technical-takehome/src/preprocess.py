@@ -7,4 +7,4 @@ def preprocess(df):
 
 # if __name__ == "__main__":
 #   preprocess(df)
-#   print("Starting preprocessing of cdn data.")
+#   print("Starting preprocessing of data.")
